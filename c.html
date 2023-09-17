@@ -5,6 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+        <style>
+        /* Define your CSS rules for responsiveness */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* You can add more CSS rules for specific elements as needed */
+
+        /* Media query for smaller screens (adjust as needed) */
+        @media screen and (max-width: 600px) {
+            table {
+                font-size: 14px; /* Reduce font size for small screens */
+            }
+        }
+    </style>
 </head>
 
 <body>
